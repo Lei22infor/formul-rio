@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Cadastro Novo Produtos</title>
+
+</head>
+<body>
+
+    
+<fildset>
+    <form>
+        <div class="container border">
+            <legend>Cadastro de Produtos</legend>
+            <div class="row">
+                <div class="col-6">
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">nome do produto (*)</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="meu produto teste">
+                  </div>
+</div>
+<div class="col-2">
+<label form="formGroupExampleInput" class="form-label">Codigo (SKU) <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-info-circle" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+  </svg></label> <input type="text" name="idcodigo" class="form-control" id="formGroupExampleInput" placeholder="000000">
+</div>
+<div class="col-2">
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">preço de venda</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="0000">
+  </div></div>
+<div class="col-2">
+  <div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">unidade</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="00">
+  </div></div></div>
+<div class="row">
+   
+ <div class="col-2">
+<label class="form-label">Condição</label>
+<select class="form-select" aria-label="Default select example">
+    <option selected>Novo</option>
+    <option value="1">Novo1</option>
+    <option value="2">Novo2</option>
+    <option value="3">Novo3</option>
+  </select>
+</div><div class="col-2">
+<label class="form-label">Tipo</label> 
+<select class="form-select" aria-label="Default select example">
+    <option selected>Produto</option>
+    <option value="1">Produto1</option>
+    <option value="2">Produto2</option>
+    <option value="3">Produto3</option>
+  </select>
+</div><div class="col">
+    <br> 
+    <label class="form-check-label" for="produto com composição">Produto com Composição</label>
+<div class="form-check form-switch">
+    <input width="" class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked >
+  </div></div></div>
+  <div class="col-2">
+<label class="form-label">Categoria <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-info-circle" viewBox="0 0 16 16">
+    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+  </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="grey" class="bi bi-gear-fill" viewBox="0 0 16 16">
+    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+  </svg>
+</label>
+<select class="form-select" aria-label="Default select example">
+    <option selected>Sem Categoria</option>
+    <option value="1">Com Categoria1</option>
+    <option value="2">Com categoria2</option>
+    <option value="3">Com Categoria3</option>
+  </select>
+</div>
+
+<button type="button" class="btn btn-outline-success">cancelar</button>
+
+<button type="button" class="btn btn-success">avançar</button>
+
+  
+</fildset> 
+</div>
+<script>
+    function avançar() {
+        
+        alert("Cadastro concluido")
+    }
+</script>
+
+</body>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>
